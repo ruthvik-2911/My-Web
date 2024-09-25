@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Roadmap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./public/styles.css">
+    <style>
+        /* Style for hidden tables */
+        .table-container {
+            display: none;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .cta-button, .submit-button {
+            cursor: pointer;
+        }
+        /* Style for hidden tables */
+        .table-container {
+            display: none;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        table, th, td {
+            border: none; /* Removed border for a cleaner look */
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            font-family: 'Arial', sans-serif; /* Changed font for better readability */
+        }
+
+        th {
+            background-color: #4CAF50; /* Green background for header */
+            color: white; /* White text for header */
+            font-weight: bold; /* Bold text for header */
+            text-transform: uppercase; /* Uppercase text for header */
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9; /* Light gray background for even rows */
+        }
+
+        tr:hover {
+            background-color: #f1f1f1; /* Highlight row on hover */
+        }
+
+        a {
+            color: #4CAF50; /* Green link color */
+            text-decoration: none; /* No underline for links */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        .cta-button, .submit-button {
+            cursor: pointer;
+            padding: 10px 15px; /* Added padding for better button appearance */
+            background-color: #4CAF50; /* Green button color */
+            color: white; /* White text for buttons */
+            border: none; /* No border */
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+
+        .cta-button:hover, .submit-button:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>
+                <img src="./public/11.jpg" alt="Icon" class="hero-icon" style="color: white;">
+                DESCITE-Your Pathway to Becoming a Data Scientist
+            </h1>
+            <p>Explore and Master the Skills, Tools, and Technologies of Data Science</p>
+            <a href="#roadmap" class="cta-button">Start Your Journey</a>
+        </div>
+    </header>
+    
+    <section id="roadmap" class="roadmap">
+        <h2>Data Science Roadmap</h2>
+        <div class="roadmap-content">
+            <a href="#!" class="roadmap-stage stage1" onclick="showTable('foundationsTable')">
+                <i class="fas fa-calculator fa-3x"></i>
+                <h3>Foundations</h3>
+                <p>Learn basic statistics, programming, and data manipulation.</p>
+            </a>
+            <a href="#!" class="roadmap-stage stage2" onclick="showTable('intermediateTable')">
+                <i class="fas fa-project-diagram fa-3x"></i>
+                <h3>Intermediate Skills</h3>
+                <p>Delve into machine learning, data visualization, and SQL.</p>
+            </a>
+            <a href="#!" class="roadmap-stage stage3" onclick="showTable('advancedTable')">
+                <i class="fas fa-brain fa-3x"></i>
+                <h3>Advanced Topics</h3>
+                <p>Explore deep learning, big data technologies, and AI.</p>
+            </a>
+            <a href="#!" class="roadmap-stage stage5" onclick="showTable('datasetsTable')">
+                <i class="fa-solid fa-database fa-3x"></i>
+                <h3>Datasets</h3>
+                <p>You can use these datasets for practice.</p>
+            </a>
+        </div>
+
+        <!-- Foundations Table -->
+        <div id="foundationsTable" class="table-container">
+            <h3>Foundations Table</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Books</th>
+                        <th>Online Courses</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Basic Statistics</td>
+                        <td><a href="https://drive.google.com/file/d/1xtibQ0H3oJZHD8dBNiCHhWijLdE3GEFv/view?usp=sharing" target="_blank">Download Book</a></td>
+                        <td><a href="https://www.youtube.com/embed/xxpc-HPKN28" target="_blank">Watch Course</a></td>
+                    </tr>
+                    <tr>
+                        <td>Programming (Python)</td>
+                        <td><a href="https://drive.google.com/file/d/1gfGZnhfFcCKxWnOtvxtdaEZpu8D74H5Q/view?usp=sharing" target="_blank">Download Python Book</a></td>
+                        <td><a href="https://www.youtube.com/embed/_uQrJ0TkZlc" target="_blank">Watch Python Course</a></td>
+                    </tr>
+                    <tr>
+                        <td>Programming (R)</td>
+                        <td><a href="https://drive.google.com/file/d/1OVSm3y1JyyGR2YHSHZ-XljK9hGKSARqF/view?usp=sharing" target="_blank">Download R Book</a></td>
+                        <td><a href="https://www.youtube.com/embed/Q5g6lYUn6Q4" target="_blank">Watch R Course</a></td>
+                    </tr>
+                    <tr>
+                        <td>Data Manipulation</td>
+                        <td><a href="https://drive.google.com/file/d/1HLSlGLbuk532xD9R4utuUcs2dK-qeBON/view?usp=sharing" target="_blank">Download Book</a></td>
+                        <td><a href="https://www.youtube.com/embed/bDhvCp3_lYw" target="_blank">Watch Course</a></td>
+                    </tr>
+                    <tr>
+                        <td>Pandas</td>
+                        <td><a href="https://drive.google.com/file/d/1E5v564vUVycqLe81tAeq4h6viF19ueDC/view?usp=sharing" target="_blank">Download Pandas Book</a></td>
+                        <td><a href="https://www.youtube.com/embed/ZyhVh-qRZPA?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS" target="_blank">Watch Pandas Course</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Intermediate Skills Table -->
+        <div id="intermediateTable" class="table-container">
+            <h3>Intermediate Skills Table</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Books</th>
+                        <th>Online Courses</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Machine Learning</td>
+                        <td><a href="https://drive.google.com/file/d/19FzhZOAhZRzjdwxwgYQSibG_zBc26UVZ/view?usp=drive_link" target="_blank">Download Book</a></td>
+                        <td><a href="https://www.youtube.com/embed/9gGnTQTYNaE" target="_blank">Watch Course 1</a> <br>
+                            <a href="https://www.youtube.com/embed/i_LwzRVP7bg" target="_blank">Watch Course 2</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Data Visualization</td>
+                        <td><a href="https://drive.google.com/file/d/1CYJch_k5bJ8FczrWU4_8xC2AtQU_gzVE/view?usp=drive_link" target="_blank">Download Book 1</a> <br>
+                            <a href="https://drive.google.com/file/d/18UMjSji6rEpf9gnSoEYE8RMNQ6xdMukW/view?usp=drive_link" target="_blank">Download Book 2</a>
+                        </td>
+                        <td><a href="https://www.youtube.com/embed/3Xc3CA655Y4" target="_blank">Watch Course 1</a> <br>
+                            <a href="https://www.youtube.com/embed/eG663qYKjVw" target="_blank">Watch Course 2</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td><a href="https://drive.google.com/file/d/18UMjSji6rEpf9gnSoEYE8RMNQ6xdMukW/view?usp=drive_link" target="_blank">Download Book</a></td>
+                        <td><a href="https://www.youtube.com/embed/HXV3zeQKqGY" target="_blank">Watch Course</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Advanced Topics Table -->
+        <div id="advancedTable" class="table-container">
+            <h3>Advanced Topics Table</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Books</th>
+                        <th>Online Courses</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Deep Learning</td>
+                        <td><a href="https://drive.google.com/file/d/1464PvlNL7Ag-bfDMZtXCWia0wxN3TC-n/view?usp=drive_link" target="_blank">Download Book</a></td>
+                        <td><a href="https://www.youtube.com/embed/q6kJ71tEYqM" target="_blank">Watch Course 1</a> <br>
+                            <a href="https://www.youtube.com/embed/VyWAvY2CF9c" target="_blank">Watch Course 2</a> <br>
+                            <a href="https://www.youtube.com/embed/jmmW0F0biz0" target="_blank">Watch Course 3</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Big Data Technologies</td>
+                        <td><a href="https://drive.google.com/file/d/1W-Exey31Q53XggYLxKs2q9kCsAhyKVNL/view?usp=drive_link" target="_blank">Download Book</a></td>
+                        <td><a href="https://www.youtube.com/embed/1vbXmCrkT3Y" target="_blank">Watch Course</a></td>
+                    </tr>
+                    <tr>
+                        <td>Artificial Intelligence</td>
+                        <td><a href="https://drive.google.com/file/d/1kTb3FbU2wkz3tduyb5nT9EsxjiPaRtmB/view?usp=drive_link" target="_blank">Download Book</a></td>
+                        <td><a href="https://www.youtube.com/embed/JMUxmLyrhSk" target="_blank">Watch Course</a> <br>
+                            <a href="https://www.coursera.org/" target="_blank">Explore Coursera AI Courses</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="datasetsTable" class="table-container">
+            <h3>Datasets Table</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dataset Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Iris Dataset</td>
+                        <td>A classic dataset for classification problems.</td>
+                    </tr>
+                    <tr>
+                        <td>Housing Prices</td>
+                        <td>Predict house prices using various features.</td>
+                    </tr>
+                    <tr>
+                        <td>Titanic Dataset</td>
+                        <td>Analyze Titanic passengers' survival rates.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="contact-us">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>If you have any questions, feel free to reach out to us via email or phone.</p>
+                    <p>Email: datamail434@gmail.com</p>
+                    <p>Phone: 8660794506</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Data Science Roadmap. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript to toggle table visibility -->
+    <script>
+        function showTable(tableId) {
+            // Hide all tables
+            var tables = document.querySelectorAll('.table-container');
+            tables.forEach(function(table) {
+                table.style.display = 'none';
+            });
+
+            // Show the selected table
+            document.getElementById(tableId).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
